@@ -10,6 +10,7 @@
 
 
 
+
 # Project 2 : Ambient Sound Light Show
 
 **Problem Statement** - Using frequency content we will analyze ambient sound and display it on strip of LEDs
