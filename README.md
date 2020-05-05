@@ -8,8 +8,37 @@
 
 **Understand the device mechanism** -
 
+![](instpic.jpeg)
 
+1. **Laser Transmission Circuit**
 
+Particle Argon --> breadboard
+
+Argon 3v3 --> positive power rail and Argon ground to negative power rail
+
+Laser emitter --> small breadboard and jump laser ports to power, ground, and pin D0, respectively
+
+Connect buzzer --> main breadboard and jump buzzer ports to power, ground, and pin D4, respectively
+
+2. **Laser Receiving Circuit**
+
+Particle Argon --> main breadboard
+
+Argon 3v3 --> positive power rail and Argon ground to negative power rail
+
+Photoresistor to small breadboard and jump laser ports to power, ground, and pin D0, respectively
+
+Buzzer --> main breadboard and jump buzzer ports to power, ground, and pin D8, respectively
+
+Led --> main breadboard, with the positive lead in pin D9, the negative lead in a row on its own, and a resistor jumping the negative lead to the ground rail
+
+3. **Data Acquisition and Transmission Circuit**
+
+ParticleArgon --> main breadboard
+
+Argon 3v3 --> positive power rail and Argon ground to negative power rail
+
+Buzzer --> main breadboard and jump buzzer ports to power, ground, and pin D4, respectively
 
 # Project 2 : Ambient Sound Light Show
 
